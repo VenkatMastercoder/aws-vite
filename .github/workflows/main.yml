@@ -27,4 +27,4 @@ jobs:
       - name: Deploy to EC2
         run: |
           pm2 delete all || true
-          pm2 serve dist 80 --name my-vite-app
+          pm2 serve dist 5173 --name my-vite-app
